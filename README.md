@@ -97,7 +97,7 @@ We can use `.map` to iterate over the list and return an array of the text:
 
 ```js
 function listIterate(){
-  return $('li').map(function(item, index){
+  return $('li').map(function(index, item){
       return item.innerHTML;
   });
 }
@@ -109,3 +109,5 @@ We defined a `listIterate` function. The body of the function calls `.map` on `$
 + [jQuery Docs](https://api.jquery.com/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-jquery-iterators'>jQuery Iterators</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/js-jquery-iterators'>jQuery Iterators</a> on Learn.co and start learning to code for free.</p>
